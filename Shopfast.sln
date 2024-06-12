@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopfast", "Shopfast\Shopfast.csproj", "{B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{CA7CFF7B-465B-4100-8C4B-00610543ABB1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3} = {B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CE81D9-9D08-48A4-8B1C-6C3C9C6739E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7CFF7B-465B-4100-8C4B-00610543ABB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7CFF7B-465B-4100-8C4B-00610543ABB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7CFF7B-465B-4100-8C4B-00610543ABB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7CFF7B-465B-4100-8C4B-00610543ABB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A4352F-78F8-4362-BD30-A233F1E132ED}
+	EndGlobalSection
+EndGlobal
